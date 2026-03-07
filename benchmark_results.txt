@@ -1,0 +1,19 @@
+﻿Dataset         N       Best        Avg        Std   Gap(%)  Time(s)
+----------------------------------------------------------------------
+burma14        14     3323.0     3328.9       22.6   -0.00%    39.17
+berlin52       52     7672.0     8093.5      178.5    1.72%   117.20
+kroA100       100    23125.0    25428.3     1012.1    8.66%   199.56
+----------------------------------------------------------------------
+
+Parameters used:
+  pop_size: 190
+  mutation_rate: 0.3663320151223965
+  elite_size: 5
+  tournament_k: 10
+  crossover_type: ox
+  mutation_probs:
+    swap: 0.0723
+    inversion: 0.8859
+    scramble: 0.0419
+  generations: 300
+  n_runs: 30
