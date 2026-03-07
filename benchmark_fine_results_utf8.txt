@@ -1,0 +1,14 @@
+﻿Python: 3.14.3 free-threading build | packaged by conda-forge | (main, Feb  9 2026, 21:56:46) [MSC v.1944 64 bit (AMD64)]
+GIL: Disabled (Free-Threaded) | Thread workers: 16
+Runs per dataset: 30 | Generations: 300
+
+Dataset    | Mode                Best      Avg   Gap(%)   Avg Time/Run  Total Time(s)
+-------------------------------------------------------------------------------------
+berlin52   | Sequential          7672   8073.6    1.72%        3.154s         94.61s
+           | Fine-Grained        7703   8162.9    2.13%        4.312s        129.35s
+           | Speedup                                            0.73x          0.73x
+-------------------------------------------------------------------------------------
+kroA100    | Sequential         23975  25309.6   12.65%        6.226s        186.77s
+           | Fine-Grained       23433  25116.3   10.11%        4.819s        144.58s
+           | Speedup                                            1.29x          1.29x
+-------------------------------------------------------------------------------------
