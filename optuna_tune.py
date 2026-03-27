@@ -315,7 +315,7 @@ def run_single_experiment(
 
 def objective(trial, n_cities, dist_matrix):
     # Suggest hyperparameters
-    pop_size = trial.suggest_int('pop_size', 50, 200, step=10)
+    pop_size = trial.suggest_int('pop_size', 50, 100, step=5)
     mutation_rate = trial.suggest_float('mutation_rate', 0.01, 0.4)
     elite_size = trial.suggest_int('elite_size', 1, 5)
     tournament_k = trial.suggest_int('tournament_k', 2, 10)
